@@ -1,7 +1,8 @@
+os: osx
 language: python
 matrix:
   include:
-    - python: 3.8
+    - python: 3.10
 install: 
   - pip install numpy
   - pip install certifi
