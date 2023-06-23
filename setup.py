@@ -35,24 +35,24 @@ setup(
                  ]
     },
     install_requires=[
-        'grpcio-testing>=1.32.0',
-        'tamu_d3m>=2022.05.23',
+        'grpcio-testing',
+        'tamu_d3m',
         'tamu_axolotl',
-        'numpy>=1.21.2',
+        'numpy',
         'combo',
-        'simplejson>=3.12.0',
+        'simplejson',
         'scikit-learn',
-	    'statsmodels>=0.11.1',
-        'PyWavelets>=1.1.1',
-        'pillow>=7.1.2',
-        'tensorflow>=2.4',
-        'keras>=2.4.0',
-        'pyod>=1.0.5',
-        'nimfa>=1.4.0',
-        'stumpy>=1.4.0',
-        'more-itertools>=8.5.0',
+	'statsmodels',
+        'PyWavelets',
+        'pillow',
+        'tensorflow',
+        'keras',
+        'pyod',
+        'nimfa',
+        'stumpy',
+        'more-itertools',
         'xgboost',
-        'ray[tune]>=1.13.0'
+        'ray[tune]'
     ],
 
     entry_points = merge_entry_points()
